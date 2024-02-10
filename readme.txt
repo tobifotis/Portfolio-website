@@ -1,35 +1,28 @@
------------------------
-# README
------------------------
-Browny is a one page bootstrap 3 based resume/portfolio template.
-It is not my original creation and is intended solely for demonstration purposes.
+##👨‍💻 Project Showcase: I recently completed this website to highlight my portfolio! 
 
 
-Template Info:
------------------------
-Name: 		Browny - Free Bootstrap One Page Portfolio Resume Tempalte
-Version: 	1.0
-Author: 	ThemeSINE
-Website: 	https://www.themesine.com/
+###🛠️ Infrastructure Setup:
+Set up a Linux 2 EC2 instance.
+Connected it to an Application Load Balancer for scalability.
 
+###🤖 Automation with Jenkins:
+Installed Jenkins on the EC2 instance.
+Used Jenkins to build the project from a custom Git repository.
 
-Changelog:
------------------------
-Version 1.0 14-05-2018
-- initial release 
+###🌐 Web Development:
+Modified a template from free-CSS to create a unique website.
+Pushed code and dependencies to GitHub for version control.
 
+###🔒 Securing the Site:
+Mapped the Application Load Balancer URL to my site using Route 53.
+Implemented TLS/SSL with ACM for secure communication.
 
-Credits:
------------------------
-- Twitter Bootstrap http://getbootstrap.com
-- jQuery http://jquery.org
-- Modernizr https://modernizr.com/
-- Sticky.js http://stickyjs.com/
-- JQuery easing https://github.com/gdsmith/jquery.easing
-- Bootsnav http://bootsnav.danurstrap.com/
-- Pexels https://www.pexels.com/
-- Unsplash https://unsplash.com/
+###🔐 Enhancing Security:
+Configured the load balancer to listen on port 443 for HTTPS.
+Set up a redirect from port 80 to port 443 to ensure all traffic is secure.
 
-License:
------------------------
-This template is under Free License - https://www.themesine.com/license/
+#####This project was a fantastic learning experience, especially diving into HTML with no prior knowledge! It demonstrates a comprehensive CI/CD process, integrating Jenkins for automation and Git for version control.
+
+💡 Stay Curious
+
+#webdevelopment #aws #git #jenkins #techproject #devops
